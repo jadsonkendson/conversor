@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(31, 31, 31);
+    font-family: 'Trebuchet MS', Helvetica, sans-serif, 'Times New Roman';
+}
+
+
+/* === CABEÇALHO === */
+
+.cabecalho {
+    background: rgb(31, 31, 31);
+    padding: 1px;
+    text-align: center;
+}
+
+#linhacabecalho {
+    height: 1px;
+    background-color: #2da8a8;
+}
+
+#logocabecalho {
+    margin: 10px auto;
+    width: 300px;
+    display: inline;
+    margin-left: 80px;
+}
+
+#logo-cabecalho img {
+    width: 350px;
+}
+
+
+/*  */
+
+input[type="checkbox"]:checked~nav {
+    transform: translateX(350px)
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+nav {
+    /* OBS: esse background é dos nomes da barra de navegação */
+    /* background: rgb(59, 59, 59); */
+    position: relative;
+    transition: all 0.5s;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* .borda-menu {} */
+
+i[class*="fa-"] {
+    color: #31d1d1;
+}
+
+
+/* === Conteúdo === */
+
+.area-uso {
+    background: rgb(216, 216, 216);
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* === Links === */
+
+.sub-menu a:link,
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: rgb(45, 168, 168);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Menu Navegação */
+
+.largura-menu {
+    width: 165px;
+}
+
+
+/* Barra de Navegação */
+
+.dropbtn {
+    background: rgb(31, 31, 31);
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    background-color: rgb(45, 168, 168);
+    min-width: 1px;
+    /* 160px */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background: rgb(59, 59, 59);
+}
+
+
+/*=== RODAPÉ ===*/
+
+.texto-rodape {
+    text-align: center;
+    margin-top: 11.5px;
+}
+
+.rodape-limpar {
+    background: rgb(31, 31, 31);
+    padding: 5px;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}

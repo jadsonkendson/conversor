@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(32,32,32);
+}
+p{
+    color: white;
+}
+
+/* === CABEÇALHO === */
+
+.cabecalho {
+    background: #131313;
+}
+
+#logo-cabecalho {
+    /* background-image: url('../img/logo/GereBem-LadoaLado.png') no-repeat; */
+    /* width: 350px; */
+    /* height: 150px; */
+    /* background-position: center; */
+    text-align: center;
+}
+
+#linhacabecalho {
+    height: 1px;
+    background-color: rgb(45, 168, 168);
+}
+
+.area-principal {
+    background: #32a852;
+}
+
+.area-funcao {
+    background: #fcff52;
+}
+
+.area-uso {
+    background: #5effdc;
+}
+
+.rodape {
+    background: #821473;
+}
+
+.limpar {
+    clear: both;
+}

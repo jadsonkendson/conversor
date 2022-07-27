@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/conversor.js"></script>
+
+    <!-- TÍTULO -->
+    <title>CONVERSOR</title>
+
+
+    <!-- BOOTSTRAP e FONTAWESOME -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
+
+    <!-- ESTILIZAÇÃO -->
+    <link rel="stylesheet" href="../css/telaInicial.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <!-- ÍCONE -->
+    <link rel="shortcut icon" type="image/x-icon" href="">
+
+</head>
+
+<body>
+
+    <form class="form" action="">
+        <div class="card" style=background:url(assets/img/background/teste6.png)>
+
+            <div class="cardtop">
+                <label for=""><h1 style="color: white;"> CONVERSOR <i class="fas fa-exchange-alt" ></i> </h1></label>
+
+                <!-- ===== OPÇÃO A ESCOLHER ===== -->
+                <div class="mb-3" style=" display: flex;">
+
+                    <div class="form-check radio">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opcaopixel" checked style="cursor: pointer;">
+                        <label class="form-check-label" for="opcaopixel" style="font-weight:bold; color: white;">
+                             CM ▷ PX
+                        </label>
+                    </div>
+
+
+                    <div class="form-check radio">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="opcaocentimetro" style="cursor: pointer;">
+                        <label class="form-check-label" for="opcaocentimetro" style="font-weight:bold ; color: white;">
+                          PX ▷ CM
+                        </label>
+                    </div>
+                </div>
+
+
+                <!-- ===== INSERIR VALORES ===== -->
+                <div class="group-card ">
+
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="largura" placeholder="LARGURA" min="0">
+                        <label for="floatingInput"><i class="fas fa-arrows-alt-h" style="color: rgb(68, 68, 68);"></i>  Digite a Largura</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="altura" placeholder="ALTURA" min="0">
+                        <label for="floatingInput"><i class="fas fa-arrows-alt-v" style="color: rgb(68, 68, 68);"></i>  Digite a Altura </label>
+                    </div>
+
+
+                    <div>
+                        <form>
+                            <!-- <a href=""> -->
+                            <input class="mt-3" type="button" id="botao-acessar" value="CALCULAR" onclick="resultado()">
+                            <!-- </a> -->
+                        </form>
+                    </div>
+
+                    <!-- ===== RESULTADO ===== -->
+                    <div>
+                        <div class="row justify-content-center">
+
+                            <div class="form-row mt-3 col-8" id="calculo">
+                                <div class="form-group resultadoFinal col-6 col-md-6 col-md-4 col-lg-6">
+                                    <label style="color: white;">Largura</label>
+                                    <input class="form-control" id="caixa1" type="number" readonly>
+                                </div>
+                                <div class="form-group resultadoFinal col-6 col-md-6 col-md-4 col-lg-6">
+                                    <label style="color: white;">Altura</label>
+                                    <input class="form-control" id="caixa2" type="number" readonly>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <footer>
+                    <p style="color: white;margin: 0;">&copy; JadsonKendson </p>
+
+                    <a href="https://www.instagram.com/jadynho_kendson/"><i class="fa-brands fa-square-instagram redesocial"></i></a>
+                    <a href="https://github.com/jadynhokendson"><i class="fa-brands fa-square-github redesocial"></i></a>
+                    <a href="https://www.linkedin.com/in/jadson-kendson-a49809103/"><i class="fa-brands fa-linkedin redesocial"></i></a>
+
+
+                </footer>
+
+
+</body>
+
+</html>
