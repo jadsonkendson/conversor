@@ -1,115 +1,120 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-image: url(../img/background/teste3.png);
-    background-color: #161f24;
-}
-
-.form {
-    width: 400px;
-    margin: auto;
-    padding-top: 30px;
-}
-
-.card {
-    box-shadow: 1px 1px 5px;
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 15px;
-}
-
-.cardtop {
-    text-align: center;
-}
-
-.imglogo {
-    width: 300px;
-    margin-bottom: 50px;
-}
-
-.group-card {
-    margin-bottom: 10px;
-}
-
-.group-card>input {
-    border-radius: 10px;
-    outline: 0px;
-    padding-left: 5px;
-    width: 200px;
-    height: 40px;
-}
-
-input[type=button],
-#botao-acessar {
-    background: rgb(197, 200, 8);
-    border-radius: 8px;
-    font-size: 25px;
-    width: 230px;
-    height: 50px;
-    text-align: center;
-    box-shadow: 1px 2px 6px rgb(58, 58, 58);
-    font-weight: bold;
-    color: white;
-}
-
-.selecao {
-    font-size: 19px;
-    display: inline;
-    width: 20%;
-    height: 20%;
-}
-
-#icone-espaco {
-    display: inline;
-    color: rgb(36, 36, 36);
-    /* border: 2px solid; */
-    text-align: center;
-    justify-content: center;
-}
-
-#calculo {
-    font-weight: bold;
-    display: flex;
-    font-size: 20px;
-}
-
-#caixa1 {
-    box-shadow: 1px 1px 2px 2px gray;
-    display: inline;
-    text-align: center;
-}
-
-#caixa2 {
-    box-shadow: 1px 1px 2px 2px gray;
-    display: inline;
-    text-align: center;
-}
-
-footer {
-    font-family: sans-serif;
-    text-shadow: black;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    padding-top: 15px;
-}
-
-.radio {
-    margin: auto;
-}
-
-.resultadoFinal {
-    margin: 4px;
-}
-
-.redesocial {
-    font-size: 35px;
-    color: white;
-}
-
-a :hover {
-    color: rgb(197, 200, 8);
-}
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        background-image: url(../img/background/teste3.png);
+        background-color: #161f24;
+    }
+    
+    .form {
+        width: 400px;
+        margin: auto;
+        padding-top: 30px;
+    }
+    
+    .card {
+        box-shadow: 1px 1px 5px;
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 15px;
+    }
+    
+    .cardtop {
+        text-align: center;
+    }
+    
+    .imglogo {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    
+    .group-card {
+        margin-bottom: 10px;
+    }
+    
+    .group-card>input {
+        border-radius: 10px;
+        outline: 0px;
+        padding-left: 5px;
+        width: 200px;
+        height: 40px;
+    }
+    
+    input[type=button],
+    #botao-acessar {
+        background: rgb(197, 200, 8);
+        border-radius: 8px;
+        font-size: 25px;
+        width: 230px;
+        height: 50px;
+        text-align: center;
+        box-shadow: 1px 2px 6px rgb(58, 58, 58);
+        font-weight: bold;
+        color: white;
+    }
+    
+    .selecao {
+        font-size: 19px;
+        display: inline;
+        width: 20%;
+        height: 20%;
+    }
+    
+    #icone-espaco {
+        display: inline;
+        color: rgb(36, 36, 36);
+        /* border: 2px solid; */
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #calculo {
+        font-weight: bold;
+        display: flex;
+        font-size: 20px;
+    }
+    
+    #caixa1 {
+        box-shadow: 1px 1px 2px 2px gray;
+        display: inline;
+        text-align: center;
+    }
+    
+    #caixa2 {
+        box-shadow: 1px 1px 2px 2px gray;
+        display: inline;
+        text-align: center;
+    }
+    
+    footer {
+        font-family: sans-serif;
+        text-shadow: black;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    .radio {
+        margin: auto;
+    }
+    
+    .resultadoFinal {
+        margin: 4px;
+    }
+    
+    .redesocial {
+        font-size: 35px;
+        color: white;
+    }
+    
+    a :hover {
+        color: rgb(197, 200, 8);
+    }
+    
+    @font-face {
+        font-family: 'mengo';
+        src: url('../font/flamengo2021.ttf') format('truetype');
+    }
